@@ -17,11 +17,11 @@
 `docker login`
 
 #### Add Docker Group to Login
-`sudo groupadd docker
-sudo usermod -a -G docker $USER
-sudo reboot now`
+`sudo groupadd docker`
+`sudo usermod -a -G docker $USER`
+`sudo reboot now`
 
 # Mount
 #### Mount nfs Drive
-`mount -t nfs <ip>:/path/to/share /path/to/mount
-<ip>:/path/to/share	/path/to/mount	nfs	defaults	0	0	# /etc/fstab entry`
+`mount -t nfs <ip>:/path/to/share /path/to/mount`
+`<ip>:/path/to/share	/path/to/mount	nfs	defaults	0	0	# /etc/fstab entry`
