@@ -16,6 +16,10 @@ ssh-add ~/.ssh/id_rsa
 ```bash
 docker ps
 ```
+#### Login to Docker Container
+```bash
+docker exec -it <dockerID> /bin/bash # same to execute any command
+```
 # Docker-Compose
 #### Login to Docker
 ```bash
