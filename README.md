@@ -20,10 +20,21 @@ docker ps
 ```bash
 docker exec -it <dockerID> /bin/bash # same to execute any command
 ```
-# Docker-Compose
 #### Login to Docker
 ```bash
 docker login
+```
+# Docker-Compose
+#### Start and Stop Docker
+```bash
+docker-compose up -d    # Start docker
+docker-compose down     # Stop docker 
+```
+#### Single Docker Container Actions
+```bash
+docker-compose restart <serviceID>  # restart
+docker-compose start <serviceID>    # start
+docker-compose stop <serviceID>     # stop
 ```
 #### Add Docker Group to Login
 ```bash
